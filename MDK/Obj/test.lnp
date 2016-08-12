@@ -1,0 +1,14 @@
+--cpu Cortex-M3
+".\obj\startup_lpc17xx.o"
+".\obj\system_lpc17xx.o"
+".\obj\main.o"
+".\obj\lcd.o"
+".\obj\bg_16bpp_b.o"
+".\obj\bg_16bpp_l.o"
+".\obj\bg_16bpp_r.o"
+".\obj\bg_16bpp_t.o"
+".\obj\arm_ani_16bpp.o"
+--library_type=microlib --strict --scatter ".\Obj\test.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\List\test.map" -o .\Obj\test.axf

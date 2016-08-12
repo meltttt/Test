@@ -1,0 +1,9 @@
+.\obj\main.o: ..\Source\User\main.c
+.\obj\main.o: C:\Keil_v5\ARM\Inc\NXP\LPC17xx\LPC17xx.H
+.\obj\main.o: C:\Keil_v5\ARM\CMSIS\Include\core_cm3.h
+.\obj\main.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\obj\main.o: C:\Keil_v5\ARM\CMSIS\Include\core_cmInstr.h
+.\obj\main.o: C:\Keil_v5\ARM\CMSIS\Include\core_cmFunc.h
+.\obj\main.o: C:\Keil_v5\ARM\Inc\NXP\LPC17xx\system_LPC17xx.h
+.\obj\main.o: ..\Source\Lcd\LCD.h
+.\obj\main.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h

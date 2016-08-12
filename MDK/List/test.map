@@ -1,0 +1,197 @@
+Component: ARM Compiler 5.06 (build 20) Tool: armlink [4d35a3]
+
+==============================================================================
+
+Section Cross References
+
+    startup_lpc17xx.o(RESET) refers to startup_lpc17xx.o(STACK) for __initial_sp
+    startup_lpc17xx.o(RESET) refers to startup_lpc17xx.o(.text) for Reset_Handler
+    startup_lpc17xx.o(RESET) refers to main.o(i.SysTick_Handler) for SysTick_Handler
+    startup_lpc17xx.o(.text) refers to entry.o(.ARM.Collect$$$$00000000) for __main
+    system_lpc17xx.o(i.SystemInit) refers to system_lpc17xx.o(.data) for SystemFrequency
+    main.o(i.SysTick_Handler) refers to main.o(.data) for ticks
+    main.o(i.main) refers to system_lpc17xx.o(i.SystemInit) for SystemInit
+    main.o(i.main) refers to lcd.o(i.LCD_Init) for LCD_Init
+    main.o(i.main) refers to lcd.o(i.LCD_Clear) for LCD_Clear
+    main.o(i.main) refers to lcd.o(i.LCD_Bmp) for LCD_Bmp
+    main.o(i.main) refers to bg_16bpp_t.o(.constdata) for Bg_16bpp_t
+    main.o(i.main) refers to bg_16bpp_l.o(.data) for Bg_16bpp_l
+    main.o(i.main) refers to bg_16bpp_r.o(.constdata) for Bg_16bpp_r
+    main.o(i.main) refers to bg_16bpp_b.o(.constdata) for Bg_16bpp_b
+    main.o(i.main) refers to main.o(.data) for ClockANI
+    main.o(i.main) refers to arm_ani_16bpp.o(.constdata) for ARM_Ani_16bpp
+    main.o(i.main) refers to main.o(.constdata) for led_mask
+    lcd.o(i.GLCD_WindowMax) refers to lcd.o(i.wr_reg) for wr_reg
+    lcd.o(i.LCD_Bargraph) refers to lcd.o(i.wr_reg) for wr_reg
+    lcd.o(i.LCD_Bargraph) refers to lcd.o(i.LCD_SetCursor) for LCD_SetCursor
+    lcd.o(i.LCD_Bargraph) refers to lcd.o(i.wr_cmd) for wr_cmd
+    lcd.o(i.LCD_Bargraph) refers to lcd.o(i.wr_dat_start) for wr_dat_start
+    lcd.o(i.LCD_Bargraph) refers to lcd.o(i.wr_dat_only) for wr_dat_only
+    lcd.o(i.LCD_Bargraph) refers to lcd.o(i.wr_dat_stop) for wr_dat_stop
+    lcd.o(i.LCD_Bargraph) refers to lcd.o(.data) for BackColor
+    lcd.o(i.LCD_Bitmap) refers to lcd.o(i.wr_reg) for wr_reg
+    lcd.o(i.LCD_Bitmap) refers to lcd.o(i.LCD_SetCursor) for LCD_SetCursor
+    lcd.o(i.LCD_Bitmap) refers to lcd.o(i.wr_cmd) for wr_cmd
+    lcd.o(i.LCD_Bitmap) refers to lcd.o(i.wr_dat_start) for wr_dat_start
+    lcd.o(i.LCD_Bitmap) refers to lcd.o(i.wr_dat_only) for wr_dat_only
+    lcd.o(i.LCD_Bitmap) refers to lcd.o(i.wr_dat_stop) for wr_dat_stop
+    lcd.o(i.LCD_Bmp) refers to lcd.o(i.LCD_WindowMax) for LCD_WindowMax
+    lcd.o(i.LCD_Bmp) refers to lcd.o(i.LCD_SetCursor) for LCD_SetCursor
+    lcd.o(i.LCD_Bmp) refers to lcd.o(i.wr_cmd) for wr_cmd
+    lcd.o(i.LCD_Bmp) refers to lcd.o(i.wr_dat_start) for wr_dat_start
+    lcd.o(i.LCD_Bmp) refers to lcd.o(i.wr_dat_only) for wr_dat_only
+    lcd.o(i.LCD_Bmp) refers to lcd.o(i.wr_dat_stop) for wr_dat_stop
+    lcd.o(i.LCD_Clear) refers to lcd.o(i.GLCD_WindowMax) for GLCD_WindowMax
+    lcd.o(i.LCD_Clear) refers to lcd.o(i.LCD_SetCursor) for LCD_SetCursor
+    lcd.o(i.LCD_Clear) refers to lcd.o(i.wr_cmd) for wr_cmd
+    lcd.o(i.LCD_Clear) refers to lcd.o(i.wr_dat_start) for wr_dat_start
+    lcd.o(i.LCD_Clear) refers to lcd.o(i.wr_dat_only) for wr_dat_only
+    lcd.o(i.LCD_Clear) refers to lcd.o(i.wr_dat_stop) for wr_dat_stop
+    lcd.o(i.LCD_ClearLn) refers to lcd.o(i.GLCD_WindowMax) for GLCD_WindowMax
+    lcd.o(i.LCD_ClearLn) refers to lcd.o(i.LCD_DisplayString) for LCD_DisplayString
+    lcd.o(i.LCD_DisplayChar) refers to lcd.o(i.LCD_DrawChar) for LCD_DrawChar
+    lcd.o(i.LCD_DisplayChar) refers to lcd.o(.constdata) for Font_24x16
+    lcd.o(i.LCD_DisplayString) refers to lcd.o(i.GLCD_WindowMax) for GLCD_WindowMax
+    lcd.o(i.LCD_DisplayString) refers to lcd.o(i.LCD_DisplayChar) for LCD_DisplayChar
+    lcd.o(i.LCD_DrawChar) refers to lcd.o(i.wr_reg) for wr_reg
+    lcd.o(i.LCD_DrawChar) refers to lcd.o(i.LCD_SetCursor) for LCD_SetCursor
+    lcd.o(i.LCD_DrawChar) refers to lcd.o(i.wr_cmd) for wr_cmd
+    lcd.o(i.LCD_DrawChar) refers to lcd.o(i.wr_dat_start) for wr_dat_start
+    lcd.o(i.LCD_DrawChar) refers to lcd.o(i.wr_dat_only) for wr_dat_only
+    lcd.o(i.LCD_DrawChar) refers to lcd.o(i.wr_dat_stop) for wr_dat_stop
+    lcd.o(i.LCD_DrawChar) refers to lcd.o(.data) for BackColor
+    lcd.o(i.LCD_Init) refers to lcd.o(i.delay) for delay
+    lcd.o(i.LCD_Init) refers to lcd.o(i.rd_reg) for rd_reg
+    lcd.o(i.LCD_Init) refers to lcd.o(i.wr_reg) for wr_reg
+    lcd.o(i.LCD_Init) refers to lcd.o(.data) for DeviceCode
+    lcd.o(i.LCD_PutPixel) refers to lcd.o(i.wr_reg) for wr_reg
+    lcd.o(i.LCD_PutPixel) refers to lcd.o(i.wr_cmd) for wr_cmd
+    lcd.o(i.LCD_PutPixel) refers to lcd.o(i.wr_dat) for wr_dat
+    lcd.o(i.LCD_PutPixel) refers to lcd.o(.data) for TextColor
+    lcd.o(i.LCD_SetBackColor) refers to lcd.o(.data) for BackColor
+    lcd.o(i.LCD_SetCursor) refers to lcd.o(i.wr_reg) for wr_reg
+    lcd.o(i.LCD_SetCursor) refers to lcd.o(.data) for DeviceCode
+    lcd.o(i.LCD_SetTextColor) refers to lcd.o(.data) for TextColor
+    lcd.o(i.LCD_WindowMax) refers to lcd.o(i.wr_reg) for wr_reg
+    lcd.o(i.LCD_WindowMax) refers to lcd.o(.data) for DeviceCode
+    lcd.o(i.lcd_send) refers to lcd.o(.emb_text) for wait
+    lcd.o(i.rd_dat) refers to lcd.o(i.wait_delay) for wait_delay
+    lcd.o(i.rd_reg) refers to lcd.o(i.wr_cmd) for wr_cmd
+    lcd.o(i.rd_reg) refers to lcd.o(i.rd_dat) for rd_dat
+    lcd.o(i.wr_cmd) refers to lcd.o(i.lcd_send) for lcd_send
+    lcd.o(i.wr_cmd) refers to lcd.o(.emb_text) for wait
+    lcd.o(i.wr_dat) refers to lcd.o(i.lcd_send) for lcd_send
+    lcd.o(i.wr_dat) refers to lcd.o(.emb_text) for wait
+    lcd.o(i.wr_dat_only) refers to lcd.o(i.lcd_send) for lcd_send
+    lcd.o(i.wr_dat_only) refers to lcd.o(.emb_text) for wait
+    lcd.o(i.wr_reg) refers to lcd.o(i.wr_cmd) for wr_cmd
+    lcd.o(i.wr_reg) refers to lcd.o(i.wr_dat) for wr_dat
+    entry.o(.ARM.Collect$$$$00000000) refers (Special) to entry10a.o(.ARM.Collect$$$$0000000D) for __rt_final_cpp
+    entry.o(.ARM.Collect$$$$00000000) refers (Special) to entry11a.o(.ARM.Collect$$$$0000000F) for __rt_final_exit
+    entry.o(.ARM.Collect$$$$00000000) refers (Special) to entry7b.o(.ARM.Collect$$$$00000008) for _main_clock
+    entry.o(.ARM.Collect$$$$00000000) refers (Special) to entry8b.o(.ARM.Collect$$$$0000000A) for _main_cpp_init
+    entry.o(.ARM.Collect$$$$00000000) refers (Special) to entry9a.o(.ARM.Collect$$$$0000000B) for _main_init
+    entry.o(.ARM.Collect$$$$00000000) refers (Special) to entry5.o(.ARM.Collect$$$$00000004) for _main_scatterload
+    entry.o(.ARM.Collect$$$$00000000) refers (Special) to entry2.o(.ARM.Collect$$$$00000001) for _main_stk
+    entry2.o(.ARM.Collect$$$$00000001) refers to entry2.o(.ARM.Collect$$$$00002712) for __lit__00000000
+    entry2.o(.ARM.Collect$$$$00002712) refers to startup_lpc17xx.o(STACK) for __initial_sp
+    entry2.o(__vectab_stack_and_reset_area) refers to startup_lpc17xx.o(STACK) for __initial_sp
+    entry2.o(__vectab_stack_and_reset_area) refers to entry.o(.ARM.Collect$$$$00000000) for __main
+    entry5.o(.ARM.Collect$$$$00000004) refers to init.o(.text) for __scatterload
+    entry9a.o(.ARM.Collect$$$$0000000B) refers to main.o(i.main) for main
+    entry9b.o(.ARM.Collect$$$$0000000C) refers to main.o(i.main) for main
+    init.o(.text) refers to entry5.o(.ARM.Collect$$$$00000004) for __main_after_scatterload
+
+
+==============================================================================
+
+Removing Unused input sections from the image.
+
+    Removing startup_lpc17xx.o(HEAP), (0 bytes).
+    Removing system_lpc17xx.o(.rev16_text), (4 bytes).
+    Removing system_lpc17xx.o(.revsh_text), (4 bytes).
+    Removing main.o(.rev16_text), (4 bytes).
+    Removing main.o(.revsh_text), (4 bytes).
+    Removing lcd.o(.rev16_text), (4 bytes).
+    Removing lcd.o(.revsh_text), (4 bytes).
+    Removing lcd.o(i.LCD_Bargraph), (164 bytes).
+    Removing lcd.o(i.LCD_Bitmap), (152 bytes).
+    Removing lcd.o(i.LCD_ClearLn), (44 bytes).
+    Removing lcd.o(i.LCD_DisplayChar), (48 bytes).
+    Removing lcd.o(i.LCD_DisplayString), (36 bytes).
+    Removing lcd.o(i.LCD_DrawChar), (160 bytes).
+    Removing lcd.o(i.LCD_PutPixel), (68 bytes).
+    Removing lcd.o(i.LCD_SetBackColor), (12 bytes).
+    Removing lcd.o(i.LCD_SetTextColor), (12 bytes).
+    Removing lcd.o(.constdata), (5376 bytes).
+
+17 unused section(s) (total 6096 bytes) removed from the image.
+
+==============================================================================
+
+Memory Map of the image
+
+  Image Entry point : 0x00000000
+
+  Load Region LR_IROM1 (Base: 0x00000000, Size: 0x00031464, Max: 0x00080000, ABSOLUTE)
+
+    Execution Region ER_IROM1 (Base: 0x00000000, Size: 0x000310dc, Max: 0x00080000, ABSOLUTE)
+
+    Base Addr    Size         Type   Attr      Idx    E Section Name        Object
+
+    0x00000000   0x000000cc   Data   RO            3    RESET               startup_lpc17xx.o
+    0x000000cc   0x00000000   Code   RO          314  * .ARM.Collect$$$$00000000  mc_w.l(entry.o)
+    0x000000cc   0x00000004   Code   RO          317    .ARM.Collect$$$$00000001  mc_w.l(entry2.o)
+    0x000000d0   0x00000004   Code   RO          320    .ARM.Collect$$$$00000004  mc_w.l(entry5.o)
+    0x000000d4   0x00000000   Code   RO          322    .ARM.Collect$$$$00000008  mc_w.l(entry7b.o)
+    0x000000d4   0x00000000   Code   RO          324    .ARM.Collect$$$$0000000A  mc_w.l(entry8b.o)
+    0x000000d4   0x00000008   Code   RO          325    .ARM.Collect$$$$0000000B  mc_w.l(entry9a.o)
+    0x000000dc   0x00000000   Code   RO          327    .ARM.Collect$$$$0000000D  mc_w.l(entry10a.o)
+    0x000000dc   0x00000000   Code   RO          329    .ARM.Collect$$$$0000000F  mc_w.l(entry11a.o)
+    0x000000dc   0x00000004   Code   RO          318    .ARM.Collect$$$$00002712  mc_w.l(entry2.o)
+    0x000000e0   0x00000004   Code   RO          103    .emb_text           lcd.o
+    0x000000e4   0x0000001c   Code   RO            5    .text               startup_lpc17xx.o
+    0x00000100   0x00000024   Code   RO          331    .text               mc_w.l(init.o)
+    0x00000124   0x00000026   Code   RO          104    i.GLCD_WindowMax    lcd.o
+    0x0000014a   0x00000002   PAD
+    0x0000014c   0x00000078   Code   RO          107    i.LCD_Bmp           lcd.o
+    0x000001c4   0x00000040   Code   RO          108    i.LCD_Clear         lcd.o
+    0x00000204   0x00000048   Code   RO          116    i.LCD_SetCursor     lcd.o
+    0x0000024c   0x00000068   Code   RO          118    i.LCD_WindowMax     lcd.o
+    0x000002b4   0x0000000e   Code   RO          119    i.delay             lcd.o
+    0x000002c2   0x00000002   PAD
+    0x000002c4   0x0000002c   Code   RO          122    i.rd_reg            lcd.o
+    0x000002f0   0x0000000c   Code   RO          123    i.wait_delay        lcd.o
+    0x000002fc   0x00000004   Code   RO            4    .ARM.__at_0x02FC    startup_lpc17xx.o
+    0x00000300   0x0000058c   Code   RO          113    i.LCD_Init          lcd.o
+    0x0000088c   0x0000007c   Code   RO           59    i.SysTick_Handler   main.o
+    0x00000908   0x000001ec   Code   RO           15    i.SystemInit        system_lpc17xx.o
+    0x00000af4   0x00000048   Code   RO          120    i.lcd_send          lcd.o
+    0x00000b3c   0x00000168   Code   RO           60    i.main              main.o
+    0x00000ca4   0x00000068   Code   RO          121    i.rd_dat            lcd.o
+    0x00000d0c   0x00000030   Code   RO          124    i.wr_cmd            lcd.o
+    0x00000d3c   0x00000030   Code   RO          125    i.wr_dat            lcd.o
+    0x00000d6c   0x00000024   Code   RO          126    i.wr_dat_only       lcd.o
+    0x00000d90   0x00000010   Code   RO          127    i.wr_dat_start      lcd.o
+    0x00000da0   0x00000010   Code   RO          128    i.wr_dat_stop       lcd.o
+    0x00000db0   0x00000028   Code   RO          129    i.wr_reg            lcd.o
+    0x00000dd8   0x00000020   Data   RO           61    .constdata          main.o
+    0x00000df8   0x0000acc6   Data   RO          279    .constdata          bg_16bpp_b.o
+    0x0000babe   0x00000376   Data   RO          293    .constdata          bg_16bpp_r.o
+    0x0000be34   0x0000acc6   Data   RO          300    .constdata          bg_16bpp_t.o
+    0x00016afa   0x0001a5e0   Data   RO          307    .constdata          arm_ani_16bpp.o
+    0x000310da   0x00000002   PAD
+    0x000310dc   0x00000000   Data   RO          333    Region$$Table       anon$$obj.o
+
+
+    Execution Region RW_IRAM1 (Base: 0x10000000, Size: 0x00000588, Max: 0x00008000, ABSOLUTE)
+
+    Base Addr    Size         Type   Attr      Idx    E Section Name        Object
+
+    0x10000000   0x00000004   Data   RW           16    .data               system_lpc17xx.o
+    0x10000004   0x00000007   Data   RW           62    .data               main.o
+    0x1000000b   0x00000001   PAD
+    0x1000000c   0x00000006   Data   RW          131    .data               lcd.o
+    0x10000012   0x00000376   Data   RW          286    .data               bg_16bpp_l.o
+    0x10000388   0x00000200   Zero   RW            1    STACK               startup_lpc17xx.o
+

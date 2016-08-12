@@ -1,0 +1,33 @@
+Dependencies for Project 'LCD', Target 'Target 1': (DO NOT MODIFY !)
+F (..\LPC17xx\startup_LPC17xx.s)(0x4BB19EDC)(--cpu Cortex-M3 -g --apcs=interwork --pd "__MICROLIB SETA 1"-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\NXP\LPC17xx--pd "__UVISION_VERSION SETA 516"--list .\list\startup_lpc17xx.lst --xref -o .\obj\startup_lpc17xx.o --depend .\obj\startup_lpc17xx.d)
+F (..\LPC17xx\system_LPC17xx.c)(0x4D00729F)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\Source\Lcd-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\NXP\LPC17xx-D__UVISION_VERSION="516" -DUSE_STDPERIPH_DRIVER-o .\obj\system_lpc17xx.o --omf_browse .\obj\system_lpc17xx.crf --depend .\obj\system_lpc17xx.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55AEF5F2)
+I (C:\Keil_v5\ARM\Inc\NXP\LPC17xx\LPC17xx.h)(0x573D8B79)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cm3.h)(0x531FBF2A)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmInstr.h)(0x531FBF2A)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmFunc.h)(0x531FBF2A)
+I (C:\Keil_v5\ARM\Inc\NXP\LPC17xx\system_LPC17xx.h)(0x531FBCB8)
+F (..\Source\User\main.c)(0x5760C967)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\Source\Lcd-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\NXP\LPC17xx-D__UVISION_VERSION="516" -DUSE_STDPERIPH_DRIVER-o .\obj\main.o --omf_browse .\obj\main.crf --depend .\obj\main.d)
+I (C:\Keil_v5\ARM\Inc\NXP\LPC17xx\LPC17xx.H)(0x573D8B79)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cm3.h)(0x531FBF2A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55AEF5F2)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmInstr.h)(0x531FBF2A)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmFunc.h)(0x531FBF2A)
+I (C:\Keil_v5\ARM\Inc\NXP\LPC17xx\system_LPC17xx.h)(0x531FBCB8)
+I (..\Source\Lcd\LCD.h)(0x4E0EBE7D)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x55AEF5F2)
+F (..\Source\Lcd\Lcd.c)(0x4E0EBEB0)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\Source\Lcd-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\NXP\LPC17xx-D__UVISION_VERSION="516" -DUSE_STDPERIPH_DRIVER-o .\obj\lcd.o --omf_browse .\obj\lcd.crf --depend .\obj\lcd.d)
+I (C:\Keil_v5\ARM\Inc\NXP\LPC17xx\lpc17xx.h)(0x573D8B79)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cm3.h)(0x531FBF2A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55AEF5F2)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmInstr.h)(0x531FBF2A)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmFunc.h)(0x531FBF2A)
+I (C:\Keil_v5\ARM\Inc\NXP\LPC17xx\system_LPC17xx.h)(0x531FBCB8)
+I (..\Source\Lcd\LCD.h)(0x4E0EBE7D)
+I (..\Source\Lcd\Font_24x16.h)(0x4CF0BDDD)
+F (..\Source\Picture\Bg_16bpp_b.c)(0x4AC99CD0)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\Source\Lcd-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\NXP\LPC17xx-D__UVISION_VERSION="516" -DUSE_STDPERIPH_DRIVER-o .\obj\bg_16bpp_b.o --omf_browse .\obj\bg_16bpp_b.crf --depend .\obj\bg_16bpp_b.d)
+F (..\Source\Picture\Bg_16bpp_l.c)(0x4AC99CD0)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\Source\Lcd-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\NXP\LPC17xx-D__UVISION_VERSION="516" -DUSE_STDPERIPH_DRIVER-o .\obj\bg_16bpp_l.o --omf_browse .\obj\bg_16bpp_l.crf --depend .\obj\bg_16bpp_l.d)
+F (..\Source\Picture\Bg_16bpp_r.c)(0x4AC99CD0)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\Source\Lcd-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\NXP\LPC17xx-D__UVISION_VERSION="516" -DUSE_STDPERIPH_DRIVER-o .\obj\bg_16bpp_r.o --omf_browse .\obj\bg_16bpp_r.crf --depend .\obj\bg_16bpp_r.d)
+F (..\Source\Picture\Bg_16bpp_t.c)(0x4AC99CD0)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\Source\Lcd-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\NXP\LPC17xx-D__UVISION_VERSION="516" -DUSE_STDPERIPH_DRIVER-o .\obj\bg_16bpp_t.o --omf_browse .\obj\bg_16bpp_t.crf --depend .\obj\bg_16bpp_t.d)
+F (..\Source\Picture\ARM_Ani_16bpp.c)(0x4AC99CD0)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\Source\Lcd-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\NXP\LPC17xx-D__UVISION_VERSION="516" -DUSE_STDPERIPH_DRIVER-o .\obj\arm_ani_16bpp.o --omf_browse .\obj\arm_ani_16bpp.crf --depend .\obj\arm_ani_16bpp.d)
+F (..\Abstract.txt)(0x4D007B68)()
